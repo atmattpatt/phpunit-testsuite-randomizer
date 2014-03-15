@@ -1,0 +1,20 @@
+{
+    "name": "matthewpatterson/phpunit-testsuite-randomizer",
+    "description": "A PHPUnit test suite listener that randomizes the order of tests",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Patterson",
+            "email": "matthew.s.patterson@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": ">=4.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPUnit\\Extensions\\Randomizer\\": "src/PHPUnit/Extensions/Randomizer"
+        }
+    }
+}
